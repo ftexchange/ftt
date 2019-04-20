@@ -1,0 +1,24 @@
+{
+  "name": "ftt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "truffle test",
+    "start": "truffle develop",
+    "truffle": "truffle"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^2.2.0"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.4.3",
+    "solc": "^0.5.7",
+    "truffle": "^5.0.13",
+    "truffle-flattener": "^1.3.0"
+  }
+}
